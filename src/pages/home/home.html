@@ -1,14 +1,144 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Mis discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding style="background-color: rgb(193,143,134)">
+
+  <ion-card style="background-color:rgb(85, 88, 100)">
+    <ion-row>
+      <ion-col>
+        <img src="../../assets/melo.jpg" (click)="imagen1()">
+      </ion-col>
+
+      <ion-col>
+        <h2 style="color:white" (click)="artista1()">
+           Lorde
+        </h2>
+        
+        <p (click)="canciones1()" style="color:rgb(169, 179, 158)">
+          Melodrama
+        </p>
+
+        <h3>
+          2017
+        </h3>
+
+
+        <p (click)="comments1()" style="color:rgb(169, 179, 158)">
+            <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+        </p>
+
+        <ion-icon name="play"></ion-icon>
+
+
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
+  <ion-card style="background-color: rgb(147,147,142)">
+
+
+    <ion-row>
+      <ion-col>
+        <img src="../../assets/div.jpg" (click)="imagen2()">
+      </ion-col>
+
+      <ion-col>
+        <h2 style="color: white" (click)="artista2()">
+          Ed Sheeran
+        </h2>
+
+        <p (click)="canciones2()">
+          Divide
+        </p>
+
+        <h3>
+          2017
+        </h3>
+
+        <p (click)="comments2()">
+          <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star-half"></ion-icon>
+      </p>
+
+      <ion-icon name="play"></ion-icon>
+
+      </ion-col>
+    </ion-row>
+      
+
+  </ion-card>
+  
+  <ion-card style="background-color:rgb(196,190,193)">
+    <ion-row>
+      <ion-col>
+        <img src="../../assets/thri.jpg" (click)="imagen3()">
+      </ion-col>
+
+      <ion-col>
+        <h2 style="color:white" (click)="artista3()"> 
+           Sam Smith
+        </h2>
+        
+        <p (click)="canciones3()">
+          The Thrill of It All
+        </p>
+
+        <h3>
+          2017
+        </h3>
+
+        <p (click)="comments3()">
+            <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+        </p>
+
+
+        <ion-icon name="play"></ion-icon>
+
+
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
+ <ion-card style="background-color:rgb(157,114,115)">
+    <ion-row>
+      <ion-col>
+
+        <img src="../../assets/visn.jpg" (click)="imagen4()">
+
+      </ion-col>
+
+      <ion-col>
+        <h2 style="color:white" (click)="artista4()">
+           Imagine Dragons
+        </h2>
+        
+        <p (click)="canciones4()">
+          Night Visions
+        </p>
+
+        <h3>
+          2012
+        </h3>
+
+        <p (click)="comments4()">
+            <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>   <ion-icon name="star-outline"></ion-icon>
+        </p>
+
+
+        <ion-icon name="play"></ion-icon>
+
+
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
+
+
 </ion-content>
